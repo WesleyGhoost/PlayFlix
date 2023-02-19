@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-perfil {
+    position: relative;
+    top: 40px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container-perfil h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 45px;
+}
+.container-perfil .character {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.container-perfil .select {
+    position: absolute;
+    top: 280px;
+    left: 553px;
+}
+.container-perfil label {
+    color: white;
+}
+.container-perfil input {
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.653);
+    color: white;
+    padding: 3px 25px 3px 10px;
+    font-size: 20px;
+}
+.container-perfil input::placeholder {
+    color: rgba(255, 255, 255, 0.505);
+}
+.container-perfil button {
+    margin-top: 10px;
+    position: relative;
+    padding: 10px;
+    width: 110px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.960);
+    background-color: white;
+    cursor: pointer;
+}
+.container-perfil button:hover {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.626);
+    transition: 0.6s;
+}
+
+/* Ícone Editar imagem por Icons8 */
+
+@media screen and (min-width: 1024px) and (max-width:1200px) {
+    .container-perfil {
+        border: 1px solid red;
+    }
+
+}
+@media screen and (min-width: 769px) and (max-width:1023px) {
+    .container-perfil {
+        width: 750px;
+        border: 1px solid blue;
+    }
+    .container-perfil h1 {
+        font-size: 40px;
+    }
+    .container-perfil .select {
+        top: 265px;
+        left: 428px;
+    }
+}    
+@media screen and (min-width: 481px) and (max-width:768px) {
+    .container-perfil {
+        width: 700px;
+        height: 900px;
+        top: 30px;
+        justify-content: flex-start;
+        gap: 70px;
+        border: 1px solid green;
+    }
+    .container-perfil h1 {
+        font-size: 60px;
+    }
+    .container-perfil input {
+        font-size: 40px;
+    }
+    .container-perfil .character {
+        width: 250px;
+        height: 250px;
+    }
+    .container-perfil .select {
+        width: 50px;
+        height: 50px;
+        top: 442px;
+        left: 430px;
+    }
+    .container-perfil button {
+        font-size: 35px;
+        width: 180px;
+    }
+
+}
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .container-perfil {
+        width: 350px;
+        height: 650px;
+        top: 10px;
+        justify-content: center;
+        gap: 45px;
+        border: 1px solid orange;
+    }
+    .container-perfil h1 {
+        font-size: 35px;
+    }
+    .container-perfil .select {
+        width: 30px;
+        height: 30px;
+        top: 333px;
+        left: 225px;
+    }
+}

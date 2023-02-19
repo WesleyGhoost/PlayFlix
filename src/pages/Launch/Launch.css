@@ -1,0 +1,134 @@
+.title-launchs {
+    display: inline-block;
+    margin: 80px 0px 0px 20px;
+}
+.title-launchs, .data {
+    color: white;
+    border-bottom: 2px solid white;
+}
+.container-launchs {
+    margin: 30px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data-launchs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+p {
+    color: rgba(255, 255, 255, 0.495); 
+}
+.logo {
+    width: 300px;
+    height: 150px;
+}
+#decrease {
+    width: 220px;
+    height: 100px;
+    margin: 30px 0px;
+}
+@media screen and (min-width: 1024px) and (max-width:1200px) {
+    .container-launchs {
+        border: 1px solid red;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1023px) {
+    .container-launchs {
+        border: 1px solid blue;
+    }
+    .container-launchs iframe{
+        width: 650px;
+        height: 350px;
+    }
+    .data-launchs {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+    }
+    .logo {
+        width: 200px;
+        height: 100px;
+    }
+    #decrease {
+        width: 150px;
+        height: 80px;
+        margin: 30px 0px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:768px) {
+    .title-launchs {
+        display: inline-block;
+        margin: 80px 0px 0px 20px;
+    }
+    .data {
+        font-size: 14px;
+    }
+    .container-launchs {
+        border: 1px solid blue;
+        width: 700px;
+    }
+    .container-launchs iframe{
+        width: 600px;
+        height: 350px;
+    }
+    .data-launchs {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+    }
+    .logo {
+        width: 180px;
+        height: 100px;
+    }
+    #decrease {
+        width: 150px;
+        height: 80px;
+        margin: 30px 0px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .title-launchs {
+        display: inline-block;
+        margin: 80px 0px 0px 20px;
+    }
+    .data {
+        font-size: 14px;
+    }
+    .container-launchs {
+        border: 1px solid blue;
+        width: 350px;
+    }
+    .container-launchs iframe{
+        width: 300px;
+        height: 170px;
+    }
+    .data-launchs {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .logo {
+        width: 180px;
+        height: 100px;
+    }
+    #decrease {
+        width: 150px;
+        height: 80px;
+        margin: 30px 0px;
+    }
+}

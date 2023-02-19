@@ -1,0 +1,53 @@
+.container-infos {
+    display: flex;
+    height: 220px;
+}
+.trailer {
+    width: 700px;
+    height: 350px;
+}
+.infos-descrip {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.infos-descrip p {
+    color: white;
+    font-size: 14px;
+}
+.infos-data {
+    width: 40%;
+    height: 100%;
+    font-size: 12px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infos-data h2 {
+    color: white;
+}
+.infos-data strong {
+    color: rgba(0, 0, 0, 0.53);
+}
+
+@media screen and (min-width: 769px) and (max-width:1023px) {
+    .infos-descrip p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .trailer {
+        width: 380px;
+        height: 250px;
+    }
+    .infos-data, .infos-descrip {
+        position: relative;
+        top: 100px;
+    }
+    .infos-descrip p {
+        font-size: 15px;
+    }
+}

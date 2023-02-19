@@ -1,0 +1,17 @@
+.about button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+    margin: 20px 0 0 20px;
+    cursor: pointer;
+}
+.about h1 {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.653);
+    padding: 20px;
+}
+.about h3 {
+    text-align: start;
+    color: white;
+    padding: 20px;
+}
