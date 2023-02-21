@@ -252,7 +252,7 @@ export function AAA() {
             <Navbar />
             <div className="game-on-top">
                 <h1 className='genAAA'>Triple A</h1>
-                <img src={Witcher} />
+                <img src={Witcher} alt="The Witcher 3"/>
                 <div className="informations animate__animated animate__fadeInLeft">
                     <h3 onClick={showWitcherModal} className="informations-trailer">Assistir ao trailer</h3>
                     <h3 onClick={showWitcherModal} className="informations-more">Mais informações</h3>
@@ -261,7 +261,7 @@ export function AAA() {
             <section className="tags">
                 <h3>RPG</h3>
                 <div className="tags-games">
-                    <img onClick={showWitcherModal} id='witcher' src={Witcher} />
+                    <img onClick={showWitcherModal} id='witcher' src={Witcher} alt="The Wicther 3"/>
                     <Modal
                         isOpen={modalWitcherIsOpen}
                         onRequestClose={closeWitcherModal}
@@ -273,7 +273,7 @@ export function AAA() {
                         <button onClick={closeWitcherModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showZeldaModal} className='zelda' src={Zelda} />
+                    <img onClick={showZeldaModal} className='zelda' src={Zelda} alt="Zelda: Breath of the Wild"/>
                     <Modal
                         isOpen={modalZeldaIsOpen}
                         onRequestClose={closeZeldaModal}
@@ -285,7 +285,7 @@ export function AAA() {
                         <button onClick={closeZeldaModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showSkyrimModal} src={Skyrim} />
+                    <img onClick={showSkyrimModal} src={Skyrim} alt="Skyrim"/>
                     <Modal
                         isOpen={modalSkyrimIsOpen}
                         onRequestClose={closeSkyrimModal}
@@ -297,7 +297,7 @@ export function AAA() {
                         <button onClick={closeSkyrimModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showFalloutModal} src={Fallout} />
+                    <img onClick={showFalloutModal} src={Fallout} alt="Fallout 4"/>
                     <Modal
                         isOpen={modalFalloutIsOpen}
                         onRequestClose={closeFalloutModal}
@@ -309,7 +309,7 @@ export function AAA() {
                         <button onClick={closeFalloutModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showVampyrModal} className='final-img' src={Vampyr} />
+                    <img onClick={showVampyrModal} className='final-img' src={Vampyr} alt="Vampyr"/>
                     <Modal
                         isOpen={modalVampyrIsOpen}
                         onRequestClose={closeVampyrModal}
@@ -325,7 +325,7 @@ export function AAA() {
             <section className="tags">
                 <h3>Luta</h3>
                 <div className="tags-games">
-                    <img onClick={showMortalModal} src={Mortal} />
+                    <img onClick={showMortalModal} src={Mortal} alt="Mortal Kombat 11"/>
                     <Modal
                         isOpen={modalMortalIsOpen}
                         onRequestClose={closeMortalModal}
@@ -337,7 +337,7 @@ export function AAA() {
                         <button onClick={closeMortalModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showTekkenModal} src={Tekken} />
+                    <img onClick={showTekkenModal} src={Tekken} alt="Tekken 7"/>
                     <Modal
                         isOpen={modalTekkenIsOpen}
                         onRequestClose={closeTekkenModal}
@@ -349,7 +349,7 @@ export function AAA() {
                         <button onClick={closeTekkenModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showStreetModal} src={Street} />
+                    <img onClick={showStreetModal} src={Street} alt="Street Fighter V"/>
                     <Modal
                         isOpen={modalStreetIsOpen}
                         onRequestClose={closeStreetModal}
@@ -361,7 +361,7 @@ export function AAA() {
                         <button onClick={closeStreetModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showGuiltyModal} src={Guilty} />
+                    <img onClick={showGuiltyModal} src={Guilty} alt="Guilty Gear Strive"/>
                     <Modal
                         isOpen={modalGuiltyIsOpen}
                         onRequestClose={closeGuiltyModal}
@@ -373,7 +373,7 @@ export function AAA() {
                         <button onClick={closeGuiltyModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showKillerModal} className='final-img' src={Killer} />
+                    <img onClick={showKillerModal} className='final-img' src={Killer} alt="Killer Instinct"/>
                     <Modal
                         isOpen={modalKillerIsOpen}
                         onRequestClose={closeKillerModal}
@@ -389,7 +389,7 @@ export function AAA() {
             <section className="tags">
                 <h3>Ação/Aventura</h3>
                 <div className="tags-games">
-                    <img onClick={showTheLastModal} src={TheLast} />
+                    <img onClick={showTheLastModal} src={TheLast} alt="The Last of Us 2"/>
                     <Modal
                         isOpen={modalTheLastIsOpen}
                         onRequestClose={closeTheLastModal}
@@ -401,7 +401,7 @@ export function AAA() {
                         <button onClick={closeTheLastModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showRedDeadModal} src={RedDead} />
+                    <img onClick={showRedDeadModal} src={RedDead} alt="Red Dead Redemption 2"/>
                     <Modal
                         isOpen={modalRedDeadIsOpen}
                         onRequestClose={closeRedDeadModal}
@@ -413,7 +413,7 @@ export function AAA() {
                         <button onClick={closeRedDeadModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showGowModal} src={Gow} />
+                    <img onClick={showGowModal} src={Gow} alt="God of War (2018)"/>
                     <Modal
                         isOpen={modalGowIsOpen}
                         onRequestClose={closeGowModal}
@@ -425,7 +425,7 @@ export function AAA() {
                         <button onClick={closeGowModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showAssassinModal} src={Assassin} />
+                    <img onClick={showAssassinModal} src={Assassin} alt="Assassins's Creed Valhalla"/>
                     <Modal
                         isOpen={modalAssassinIsOpen}
                         onRequestClose={closeAssassinModal}
@@ -437,7 +437,7 @@ export function AAA() {
                         <button onClick={closeAssassinModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showGtaModal} className='final-img' src={Gta} />
+                    <img onClick={showGtaModal} className='final-img' src={Gta} alt="GTA V"/>
                     <Modal
                         isOpen={modalGtaIsOpen}
                         onRequestClose={closeGtaModal}
@@ -453,7 +453,7 @@ export function AAA() {
             <section className="tags">
                 <h3>Souls-Like</h3>
                 <div className="tags-games">
-                    <img onClick={showDarkModal} src={Dark} />
+                    <img onClick={showDarkModal} src={Dark} alt="Dark Souls"/>
                     <Modal
                         isOpen={modalDarkIsOpen}
                         onRequestClose={closeDarkModal}
@@ -465,7 +465,7 @@ export function AAA() {
                         <button onClick={closeDarkModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showEldenModal} src={Elden} />
+                    <img onClick={showEldenModal} src={Elden} alt="Elden Ring"/>
                     <Modal
                         isOpen={modalEldenIsOpen}
                         onRequestClose={closeEldenModal}
@@ -477,7 +477,7 @@ export function AAA() {
                         <button onClick={closeEldenModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showSekiroModal} src={Sekiro} />
+                    <img onClick={showSekiroModal} src={Sekiro} alt="Sekiro"/>
                     <Modal
                         isOpen={modalSekiroIsOpen}
                         onRequestClose={closeSekiroModal}
@@ -489,7 +489,7 @@ export function AAA() {
                         <button onClick={closeSekiroModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showBloodModal} src={Bloodborne} />
+                    <img onClick={showBloodModal} src={Bloodborne} alt="Bloodborne"/>
                     <Modal
                         isOpen={modalBloodIsOpen}
                         onRequestClose={closeBloodModal}
@@ -501,7 +501,7 @@ export function AAA() {
                         <button onClick={closeBloodModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showDarkThreeModal} className='final-img' src={Dark3} />
+                    <img onClick={showDarkThreeModal} className='final-img' src={Dark3} alt="Dark Souls 3"/>
                     <Modal
                         isOpen={modalDarkThreeIsOpen}
                         onRequestClose={closeDarkThreeModal}
@@ -517,7 +517,7 @@ export function AAA() {
             <section className="tags">
                 <h3>Survivor Horror</h3>
                 <div className="tags-games">
-                    <img onClick={showEvilModal} className='last-imgs' src={Evil} />
+                    <img onClick={showEvilModal} className='last-imgs' src={Evil} alt="The Evil Within 2"/>
                     <Modal
                         isOpen={modalEvilIsOpen}
                         onRequestClose={closeEvilModal}
@@ -529,7 +529,7 @@ export function AAA() {
                         <button onClick={closeEvilModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showReVillageModal} className='last-imgs' src={ResidentVillage} />
+                    <img onClick={showReVillageModal} className='last-imgs' src={ResidentVillage} alt="Resident Evil Village"/>
                     <Modal
                         isOpen={modalReVillageIsOpen}
                         onRequestClose={closeReVillageModal}
@@ -541,7 +541,7 @@ export function AAA() {
                         <button onClick={closeReVillageModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showCallistoModal} className='last-imgs' src={Callisto} />
+                    <img onClick={showCallistoModal} className='last-imgs' src={Callisto} alt="The Callisto Protocol"/>
                     <Modal
                         isOpen={modalCallistoIsOpen}
                         onRequestClose={closeCallistoModal}
@@ -553,7 +553,7 @@ export function AAA() {
                         <button onClick={closeCallistoModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showOutlastModal} className='last-imgs' src={Outlast} />
+                    <img onClick={showOutlastModal} className='last-imgs' src={Outlast} alt="Outlast 2"/>
                     <Modal
                         isOpen={modalOutlastIsOpen}
                         onRequestClose={closeOutlastModal}
@@ -565,7 +565,7 @@ export function AAA() {
                         <button onClick={closeOutlastModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showReTwoModal} className='last-imgs final-img' src={Resident2} />
+                    <img onClick={showReTwoModal} className='last-imgs final-img' src={Resident2} alt="Resident Evil 2"/>
                     <Modal
                         isOpen={modalReTwoIsOpen}
                         onRequestClose={closeReTwoModal}

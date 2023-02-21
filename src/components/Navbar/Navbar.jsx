@@ -2,12 +2,13 @@ import './Navbar.css'
 
 import React from "react";
 
-import { useContext, useEffect, useState} from 'react';
+import { useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
-import { NickContext } from '../../contexts/Nick';
 
 export function Navbar() {
-    const {user} = useContext(NickContext)
+    const getUser = localStorage.getItem('nick')
+    const getImg = localStorage.getItem('img')
+
     const [colorNav, setColorNav] = useState(false)
 
     useEffect(() => {
@@ -46,7 +47,8 @@ export function Navbar() {
                         <Link to="/about">Sobre</Link>
                     </li>
                 </ul>
-                <h3 className='user-nick'>{user}</h3>
+                <Link to="/perfil"><h3 className='user-nick'>{getUser}</h3></Link>
+                <Link to="/select-char"><img className='user-char' src={getImg} alt="Character" /></Link>
             </nav>
         </div>
     )

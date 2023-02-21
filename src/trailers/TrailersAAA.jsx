@@ -118,7 +118,7 @@ export function VampyrTrailer() {
 export function MortalTrailer() {
     return (
         <>
-            <iframe className='trailer' width="750" height="350" src="https://www.youtube.com/embed/H3lfTa3JCek?start=12"
+            <iframe className='trailer' width="750" height="350" src="https://www.youtube.com/embed/H3lfTa3JCek"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

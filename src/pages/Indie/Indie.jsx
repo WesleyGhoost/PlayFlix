@@ -159,7 +159,7 @@ export function Indie() {
             <Navbar />
             <div className="game-on-top ">
                 <h1 className='genIndie'>Indies</h1>
-                <img src={Plague} />
+                <img src={Plague} alt="A Plague Tale"/>
                 <div className="informations animate__animated animate__fadeInLeft">
                     <h3 onClick={showPlagueModal} className="informations-trailer">Assistir ao trailer</h3>
                     <h3 onClick={showPlagueModal} className="informations-more">Mais informações</h3>
@@ -168,7 +168,7 @@ export function Indie() {
             <section className="tags">
                 <h3>Narrativa e temática envolvente</h3>
                 <div className="tags-games">
-                    <img onClick={showPlagueModal} src={Plague} />
+                    <img onClick={showPlagueModal} src={Plague} alt="A Plague Tale"/>
                     <Modal
                         isOpen={modalPlagueIsOpen}
                         onRequestClose={closePlagueModal}
@@ -180,7 +180,7 @@ export function Indie() {
                         <button onClick={closePlagueModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showUnderModal} src={Undertale} />
+                    <img onClick={showUnderModal} src={Undertale} alt="Undertale"/>
                     <Modal
                         isOpen={modalUnderIsOpen}
                         onRequestClose={closeUnderModal}
@@ -192,7 +192,7 @@ export function Indie() {
                         <button onClick={closeUnderModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showCelesteModal} src={Celeste} />
+                    <img onClick={showCelesteModal} src={Celeste} alt="Celeste"/>
                     <Modal
                         isOpen={modalCelesteIsOpen}
                         onRequestClose={closeCelesteModal}
@@ -204,7 +204,7 @@ export function Indie() {
                         <button onClick={closeCelesteModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showTalosModal} src={Talos} />
+                    <img onClick={showTalosModal} src={Talos} alt="Talos Principle"/>
                     <Modal
                         isOpen={modalTalosIsOpen}
                         onRequestClose={closeTalosModal}
@@ -216,7 +216,7 @@ export function Indie() {
                         <button onClick={closeTalosModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showLimboModal} className='final-img' src={Limbo} />
+                    <img onClick={showLimboModal} className='final-img' src={Limbo} alt="Limbo"/>
                     <Modal
                         isOpen={modalLimboIsOpen}
                         onRequestClose={closeLimboModal}
@@ -233,7 +233,7 @@ export function Indie() {
             <section className="tags">
                 <h3>Metroidvania</h3>
                 <div className="tags-games">
-                    <img onClick={showHollowModal} src={Hollow} />
+                    <img onClick={showHollowModal} src={Hollow} alt="Hollow Knight"/>
                     <Modal
                         isOpen={modalHollowIsOpen}
                         onRequestClose={closeHollowModal}
@@ -245,7 +245,7 @@ export function Indie() {
                         <button onClick={closeHollowModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showMessengerModal} src={Messenger} />
+                    <img onClick={showMessengerModal} src={Messenger} alt="Messenger"/>
                     <Modal
                         isOpen={modalMessengerIsOpen}
                         onRequestClose={closeMessengerModal}
@@ -257,7 +257,7 @@ export function Indie() {
                         <button onClick={closeMessengerModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showMomodoraModal} src={Momodora} />
+                    <img onClick={showMomodoraModal} src={Momodora} alt="Momodora"/>
                     <Modal
                         isOpen={modalMomodoraIsOpen}
                         onRequestClose={closeMomodoraModal}
@@ -269,7 +269,7 @@ export function Indie() {
                         <button onClick={closeMomodoraModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showOriModal} src={Ori} />
+                    <img onClick={showOriModal} src={Ori} alt="Ori"/>
                     <Modal
                         isOpen={modalOriIsOpen}
                         onRequestClose={closeOriModal}
@@ -281,7 +281,7 @@ export function Indie() {
                         <button onClick={closeOriModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showBlaspheModal} className='final-img' src={Blasphemous} />
+                    <img onClick={showBlaspheModal} className='final-img' src={Blasphemous} alt="Blasphemous"/>
                     <Modal
                         isOpen={modalBlaspheIsOpen}
                         onRequestClose={closeBlaspheModal}
@@ -298,7 +298,7 @@ export function Indie() {
             <section className="tags">
                 <h3>Roguelike/Roguelite</h3>
                 <div className="tags-games">
-                    <img onClick={showDeadModal} className='last-imgs' src={Dead} />
+                    <img onClick={showDeadModal} className='last-imgs' src={Dead} alt="Dead Cells"/>
                     <Modal
                         isOpen={modalDeadIsOpen}
                         onRequestClose={closeDeadModal}
@@ -310,7 +310,7 @@ export function Indie() {
                         <button onClick={closeDeadModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showIsaacModal} className='last-imgs' src={Isaac} />
+                    <img onClick={showIsaacModal} className='last-imgs' src={Isaac} alt="The Binding of Isaac"/>
                     <Modal
                         isOpen={modalIsaacIsOpen}
                         onRequestClose={closeIsaacModal}
@@ -322,7 +322,7 @@ export function Indie() {
                         <button onClick={closeIsaacModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showHadesModal} className='last-imgs' src={Hades} />
+                    <img onClick={showHadesModal} className='last-imgs' src={Hades} alt="Hades"/>
                     <Modal
                         isOpen={modalHadesIsOpen}
                         onRequestClose={closeHadesModal}
@@ -334,7 +334,7 @@ export function Indie() {
                         <button onClick={closeHadesModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showNeonModal} className='last-imgs' src={Neon} />
+                    <img onClick={showNeonModal} className='last-imgs' src={Neon} alt="Neon Abyss"/>
                     <Modal
                         isOpen={modalNeonIsOpen}
                         onRequestClose={closeNeonModal}
@@ -346,7 +346,7 @@ export function Indie() {
                         <button onClick={closeNeonModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showGungeonModal} className='last-imgs final-img' src={Gungeon} />
+                    <img onClick={showGungeonModal} className='last-imgs final-img' src={Gungeon} alt="Enter the Gungeon"/>
                     <Modal
                         isOpen={modalGungeonIsOpen}
                         onRequestClose={closeGungeonModal}

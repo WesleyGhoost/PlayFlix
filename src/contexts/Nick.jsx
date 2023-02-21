@@ -7,9 +7,7 @@ export function NickProvider({children}) {
 
 
     function access(nickname) {
-        if(nickname != '') {
-            setUser(nickname)
-        }
+        setUser(nickname)
     }
 
     return(

@@ -1,16 +1,19 @@
 .back-select {
     position: absolute;
     top: 20px;
-    left: 40px;
+    left: 20px;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
     font-size: 25px;
     cursor: pointer;
 }
+.back-select:hover {
+    background-color: rgba(0, 0, 0, 0.384);
+}
 .back-select-p {
     position: absolute;
     top: 8px;
-    left: 90px;
+    left: 70px;
     color: white;
 }
 .title-select {

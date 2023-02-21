@@ -19,6 +19,7 @@ import { ImgContext } from '../../../contexts/Img'
 
 export function SelectImg() {
     const {changeImg} = useContext(ImgContext)
+    const {img} = useContext(ImgContext)
 
     function ChangeForArthur() {
         changeImg(Arthur)
@@ -57,6 +58,10 @@ export function SelectImg() {
         changeImg(Zelda)
     }
 
+    function storageImg() {
+        localStorage.setItem('img', img)
+    }
+
     const back = useNavigate()
 
     return(
@@ -66,24 +71,24 @@ export function SelectImg() {
             <h1 className='title-select'>Escolha o personagem de sua preferência:</h1>
             <div className='container'>
                 <div className='container-imgs'>
-                    <img onClick={() => {ChangeForArthur(); back(-1)}} src={Arthur}/>
-                    <img onClick={() => {ChangeForGeralt(); back(-1)}} src={Geralt}/>
-                    <img onClick={() => {ChangeForDante(); back(-1)}} src={Dante}/>
+                    <img onClick={() => {storageImg(); ChangeForArthur(); back("/perfil")}} src={Arthur} alt="Arthur"/>
+                    <img onClick={() => {storageImg(); ChangeForGeralt(); back("/perfil")}} src={Geralt} alt="Geralt"/>
+                    <img onClick={() => {storageImg(); ChangeForDante(); back("/perfil")}} src={Dante} alt="Dante"/>
                 </div>
                 <div className='container-imgs'>
-                    <img onClick={() => {ChangeForLeon(); back(-1)}} src={Leon}/>
-                    <img onClick={() => {ChangeForJill(); back(-1)}} src={Jill}/>
-                    <img onClick={() => {ChangeForKratos(); back(-1)}} src={Kratos}/>
+                    <img onClick={() => {ChangeForLeon(); back("/perfil")}} src={Leon} alt="Leon"/>
+                    <img onClick={() => {ChangeForJill(); back("/perfil")}} src={Jill} alt="Jill"/>
+                    <img onClick={() => {ChangeForKratos(); back("/perfil")}} src={Kratos} alt="Kratos"/>
                 </div>
                 <div className='container-imgs'>
-                    <img onClick={() => {ChangeForJoel(); back(-1)}} src={Joel}/>
-                    <img onClick={() => {ChangeForEllie(); back(-1)}} src={Ellie}/>
-                    <img onClick={() => {ChangeForEzio(); back(-1)}} src={Ezio}/>
+                    <img onClick={() => {ChangeForJoel(); back("/perfil")}} src={Joel} alt="Joel"/>
+                    <img onClick={() => {ChangeForEllie(); back("/perfil")}} src={Ellie} alt="Ellie"/>
+                    <img onClick={() => {ChangeForEzio(); back("/perfil")}} src={Ezio} alt="Ezio"/>
                 </div>
                 <div className='container-imgs'>
-                    <img onClick={() => {ChangeForScorpion(); back(-1)}} src={Scorpion}/>
-                    <img onClick={() => {ChangeForSubzero(); back(-1)}} src={Subzero}/>
-                    <img onClick={() => {ChangeForLink(); back(-1)}} src={Zelda}/>
+                    <img onClick={() => {ChangeForScorpion(); back("/perfil")}} src={Scorpion} alt="Scorpion"/>
+                    <img onClick={() => {ChangeForSubzero(); back("/perfil")}} src={Subzero} alt="Sub-Zero"/>
+                    <img onClick={() => {ChangeForLink(); back("/perfil")}} src={Zelda} alt="Zelda"/>
                 </div>
             </div>
         </>

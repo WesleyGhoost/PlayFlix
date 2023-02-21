@@ -10,6 +10,7 @@ export function About() {
     return (
         <div className='about'>
             <button onClick={() => back(-1)}>←</button>
+            <p >voltar</p>
             <h1>Informações sobre o site</h1>
             <h3>• Este site foi construído no início do ano de 2023, e os mesmos jogos que estão na sessão de 'lançamentos' já podem ter sido lançados.</h3>
             <h3>• As informações em certos jogos que se encontram com a sigla "NA" se referem a uma informação indefinida, onde não foi possível encontrar nada sobre a mesma.</h3>

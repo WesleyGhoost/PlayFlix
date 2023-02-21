@@ -157,7 +157,7 @@ export function Retro() {
             <Navbar />
             <div className="game-on-top">
                 <h1 className='genRetro'>Retrô</h1>
-                <img src={Fight} />
+                <img src={Fight} alt="Final Fight"/>
                 <div className="informations animate__animated animate__fadeInLeft">
                     <h3 onClick={showFightModal} className="informations-trailer">Assistir ao trailer</h3>
                     <h3 onClick={showFightModal} className="informations-more">Mais informações</h3>
@@ -166,7 +166,7 @@ export function Retro() {
             <section className="tags">
                 <h3>Anos 80</h3>
                 <div className="tags-games">
-                    <img onClick={showPacmanModal} src={Pacman} />
+                    <img onClick={showPacmanModal} src={Pacman} alt="Pacman"/>
                     <Modal
                         isOpen={modalPacmanIsOpen}
                         onRequestClose={closePacmanModal}
@@ -178,7 +178,7 @@ export function Retro() {
                         <button onClick={closePacmanModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showFantasyModal} src={Fantasy} />
+                    <img onClick={showFantasyModal} src={Fantasy} alt="Final Fantasy"/>
                     <Modal
                         isOpen={modalFantasyIsOpen}
                         onRequestClose={closeFantasyModal}
@@ -190,7 +190,7 @@ export function Retro() {
                         <button onClick={closeFantasyModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showCastleModal} src={Castlevania} />
+                    <img onClick={showCastleModal} src={Castlevania} alt="Castlevania"/>
                     <Modal
                         isOpen={modalCastleIsOpen}
                         onRequestClose={closeCastleModal}
@@ -202,7 +202,7 @@ export function Retro() {
                         <button onClick={closeCastleModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showFightModal} src={Fight} />
+                    <img onClick={showFightModal} src={Fight} alt="Final Fight"/>
                     <Modal
                         isOpen={modalFightIsOpen}
                         onRequestClose={closeFightModal}
@@ -214,7 +214,7 @@ export function Retro() {
                         <button onClick={closeFightModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showContraModal} className='final-img' src={Contra} />
+                    <img onClick={showContraModal} className='final-img' src={Contra} alt="Contra"/>
                     <Modal
                         isOpen={modalContraIsOpen}
                         onRequestClose={closeContraModal}
@@ -230,7 +230,7 @@ export function Retro() {
             <section className="tags">
                 <h3>Anos 90</h3>
                 <div className="tags-games">
-                    <img onClick={showMarioModal} src={Mario} />
+                    <img onClick={showMarioModal} src={Mario} alt="Super Mario World"/>
                     <Modal
                         isOpen={modalMarioIsOpen}
                         onRequestClose={closeMarioModal}
@@ -242,7 +242,7 @@ export function Retro() {
                         <button onClick={closeMarioModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showKofModal} src={Kof} />
+                    <img onClick={showKofModal} src={Kof} alt="The King of Fighters 97"/>
                     <Modal
                         isOpen={modalKofIsOpen}
                         onRequestClose={closeKofModal}
@@ -254,7 +254,7 @@ export function Retro() {
                         <button onClick={closeKofModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showSonicModal} src={Sonic} />
+                    <img onClick={showSonicModal} src={Sonic} alt="Sonic the Hedgehog"/>
                     <Modal
                         isOpen={modalSonicIsOpen}
                         onRequestClose={closeSonicModal}
@@ -266,7 +266,7 @@ export function Retro() {
                         <button onClick={closeSonicModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showKillerSnesModal} src={KillerSnes} />
+                    <img onClick={showKillerSnesModal} src={KillerSnes} alt="Killer Instinct"/>
                     <Modal
                         isOpen={modalKillerSnesIsOpen}
                         onRequestClose={closeKillerSnesModal}
@@ -278,7 +278,7 @@ export function Retro() {
                         <button onClick={closeKillerSnesModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showMortalSnesModal} className='final-img' src={MortalSnes} />
+                    <img onClick={showMortalSnesModal} className='final-img' src={MortalSnes} alt="Mortal Kombat 3"/>
                     <Modal
                         isOpen={modalMortalSnesIsOpen}
                         onRequestClose={closeMortalSnesModal}
@@ -294,7 +294,7 @@ export function Retro() {
             <section className="tags">
                 <h3>Anos 2000</h3>
                 <div className="tags-games">
-                    <img onClick={showGtaSanModal} className='last-imgs' src={GtaSan} />
+                    <img onClick={showGtaSanModal} className='last-imgs' src={GtaSan} alt="GTA San Andreas"/>
                     <Modal
                         isOpen={modalGtaSanIsOpen}
                         onRequestClose={closeGtaSanModal}
@@ -306,7 +306,7 @@ export function Retro() {
                         <button onClick={closeGtaSanModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showMarvelModal} className='last-imgs' src={Marvel} />
+                    <img onClick={showMarvelModal} className='last-imgs' src={Marvel} alt="Marvel vs Capcom 2"/>
                     <Modal
                         isOpen={modalMarvelIsOpen}
                         onRequestClose={closeMarvelModal}
@@ -318,7 +318,7 @@ export function Retro() {
                         <button onClick={closeMarvelModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showGowClassicModal} className='last-imgs' src={GowClassic} />
+                    <img onClick={showGowClassicModal} className='last-imgs' src={GowClassic} alt="God of War"/>
                     <Modal
                         isOpen={modalGowClassicIsOpen}
                         onRequestClose={closeGowClassicModal}
@@ -330,7 +330,7 @@ export function Retro() {
                         <button onClick={closeGowClassicModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showMetalModal} className='last-imgs' src={Metal} />
+                    <img onClick={showMetalModal} className='last-imgs' src={Metal} alt="Metal Gear Solid 2"/>
                     <Modal
                         isOpen={modalMetalIsOpen}
                         onRequestClose={closeMetalModal}
@@ -342,7 +342,7 @@ export function Retro() {
                         <button onClick={closeMetalModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showRaymanModal} className='last-imgs final-img' src={Rayman} />
+                    <img onClick={showRaymanModal} className='last-imgs final-img' src={Rayman} alt="Rayman 2"/>
                     <Modal
                         isOpen={modalRaymanIsOpen}
                         onRequestClose={closeRaymanModal}

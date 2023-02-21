@@ -13,6 +13,7 @@ import { Retro } from './pages/Retro/Retro'
 import { Indie } from './pages/Indie/Indie'
 import { Launch } from './pages/Launch/Launch';
 import { About } from './pages/About/About';
+import { NotFound } from './pages/NotFound/NotFound';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { NickProvider } from './contexts/Nick';
 import { ImgProvider } from './contexts/Img';
@@ -33,6 +34,7 @@ root.render(
       <Route path='/launch' element={<Launch />} />
       <Route path='/about' element={<About />} />
       <Route path='/select-char' element={<SelectImg />} />
+      <Route path='*' element={<NotFound />}/>
      </Routes>
      </NickProvider>
      </ImgProvider>

@@ -205,7 +205,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
         <div>
             <Navbar />
             <div className="game-on-top">
-                <img src={Bloodborne} />
+                <img src={Bloodborne} alt="Bloodborne"/>
                 <div className="informations animate__animated animate__fadeInLeft">
                     <h3 onClick={showBloodModal} className="informations-trailer">Assistir ao trailer</h3>
                     <h3 onClick={showBloodModal} className="informations-more">Mais informações</h3>
@@ -214,7 +214,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
             <section className="tags">
                 <h3>Mais premiados🏆</h3>
                 <div className="tags-games">
-                    <img onClick={showGowModal} src={Gow} />
+                    <img onClick={showGowModal} src={Gow} alt="God of War"/>
                     <Modal
                         isOpen={modalGowIsOpen}
                         onRequestClose={closeGowModal}
@@ -226,7 +226,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeGowModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showWitcherModal} src={Witcher} />
+                    <img onClick={showWitcherModal} src={Witcher} alt="The Witcher"/>
                     <Modal
                         isOpen={modalWitcherIsOpen}
                         onRequestClose={closeWitcherModal}
@@ -238,7 +238,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeWitcherModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showTheLastModal} src={TheLast} />
+                    <img onClick={showTheLastModal} src={TheLast} alt="The Last of Us"/>
                     <Modal
                         isOpen={modalTheLastIsOpen}
                         onRequestClose={closeTheLastModal}
@@ -250,7 +250,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeTheLastModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showEldenModal} src={Elden} />
+                    <img onClick={showEldenModal} src={Elden} alt="Elden Ring"/>
                     <Modal
                         isOpen={modalEldenIsOpen}
                         onRequestClose={closeEldenModal}
@@ -262,7 +262,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeEldenModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showRedDeadModal} className='final-img' src={RedDead} />
+                    <img onClick={showRedDeadModal} className='final-img' src={RedDead} alt="Red Dead Redemption 2"/>
                     <Modal
                         isOpen={modalRedDeadIsOpen}
                         onRequestClose={closeRedDeadModal}
@@ -279,7 +279,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
             <section className="tags">
                 <h3>Pancadaria🥊</h3>
                 <div className="tags-games">
-                    <img onClick={showMortalModal} src={Mortal} />
+                    <img onClick={showMortalModal} src={Mortal} alt="Mortal Kombat 11"/>
                     <Modal
                         isOpen={modalMortalIsOpen}
                         onRequestClose={closeMortalModal}
@@ -291,7 +291,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeMortalModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showTekkenModal} src={Tekken} />
+                    <img onClick={showTekkenModal} src={Tekken} alt="Tekken 7"/>
                     <Modal
                         isOpen={modalTekkenIsOpen}
                         onRequestClose={closeTekkenModal}
@@ -303,7 +303,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeTekkenModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showKofModal}src={Kof} />
+                    <img onClick={showKofModal}src={Kof} alt="The King of Fighters 97"/>
                     <Modal
                         isOpen={modalKofIsOpen}
                         onRequestClose={closeKofModal}
@@ -315,7 +315,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeKofModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showStreetModal} src={Street} />
+                    <img onClick={showStreetModal} src={Street} alt="Street Fighter V"/>
                     <Modal
                         isOpen={modalStreetIsOpen}
                         onRequestClose={closeStreetModal}
@@ -327,7 +327,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeStreetModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showMarvelModal} className='final-img' src={Marvel} />
+                    <img onClick={showMarvelModal} className='final-img' src={Marvel} alt="Marvel vs Capcom 2"/>
                     <Modal
                         isOpen={modalMarvelIsOpen}
                         onRequestClose={closeMarvelModal}
@@ -344,7 +344,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
             <section className="tags">
             <h3>Desafiadores😈</h3>
                 <div className="tags-games">
-                    <img onClick={showBloodModal} src={Bloodborne} />
+                    <img onClick={showBloodModal} src={Bloodborne} alt="Bloodborne"/>
                     <Modal
                         isOpen={modalBloodIsOpen}
                         onRequestClose={closeBloodModal}
@@ -356,7 +356,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeBloodModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showHollowModal} src={Hollow} />
+                    <img onClick={showHollowModal} src={Hollow} alt="Hollow Knight"/>
                     <Modal
                         isOpen={modalHollowIsOpen}
                         onRequestClose={closeHollowModal}
@@ -368,7 +368,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeHollowModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showDarkThreeModal} src={Dark3} />
+                    <img onClick={showDarkThreeModal} src={Dark3} alt="Dark Souls 3"/>
                     <Modal
                         isOpen={modalDarkThreeIsOpen}
                         onRequestClose={closeDarkThreeModal}
@@ -380,7 +380,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeDarkThreeModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showCelesteModal} src={Celeste} />
+                    <img onClick={showCelesteModal} src={Celeste} alt="Celeste"/>
                     <Modal
                         isOpen={modalCelesteIsOpen}
                         onRequestClose={closeCelesteModal}
@@ -392,7 +392,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeCelesteModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showDarkModal} className='final-img' src={Dark} />
+                    <img onClick={showDarkModal} className='final-img' src={Dark} alt="Dark Souls"/>
                     <Modal
                         isOpen={modalDarkIsOpen}
                         onRequestClose={closeDarkModal}
@@ -409,7 +409,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
             <section className="tags">
             <h3>Aventuras empolgantes ⚔</h3>
                 <div className="tags-games">
-                    <img onClick={showZeldaModal} className='last-imgs'src={Zelda} />
+                    <img onClick={showZeldaModal} className='last-imgs'src={Zelda} alt="Zelda: Breath of the Wild"/>
                     <Modal
                         isOpen={modalZeldaIsOpen}
                         onRequestClose={closeZeldaModal}
@@ -421,7 +421,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeZeldaModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showSkyrimModal} className='last-imgs'src={Skyrim} />
+                    <img onClick={showSkyrimModal} className='last-imgs'src={Skyrim} alt="Skyrim"/>
                     <Modal
                         isOpen={modalSkyrimIsOpen}
                         onRequestClose={closeSkyrimModal}
@@ -433,7 +433,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeSkyrimModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showFalloutModal} className='last-imgs'src={Fallout} />
+                    <img onClick={showFalloutModal} className='last-imgs'src={Fallout} alt="Fallout 4"/>
                     <Modal
                         isOpen={modalFalloutIsOpen}
                         onRequestClose={closeFalloutModal}
@@ -445,7 +445,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeFalloutModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showAssassinModal} className='last-imgs'src={Assassin} />
+                    <img onClick={showAssassinModal} className='last-imgs'src={Assassin} alt="Assassin's Creed Valhalla"/>
                     <Modal
                         isOpen={modalAssassinIsOpen}
                         onRequestClose={closeAssassinModal}
@@ -457,7 +457,7 @@ import { CelesteTrailer, DeadTrailer, HollowTrailer } from '../../trailers/Trail
                         <button onClick={closeAssassinModal} className='close'>X</button>
                     </Modal>
 
-                    <img onClick={showDeadModal} className='last-imgs final-img' src={Dead} />
+                    <img onClick={showDeadModal} className='last-imgs final-img' src={Dead} alt="Dead Cells"/>
                     <Modal
                         isOpen={modalDeadIsOpen}
                         onRequestClose={closeDeadModal}

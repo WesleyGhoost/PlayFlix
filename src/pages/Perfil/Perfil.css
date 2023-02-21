@@ -43,8 +43,12 @@ body {
 .container-perfil input::placeholder {
     color: rgba(255, 255, 255, 0.505);
 }
+.container-perfil p {
+    color: rgba(255, 0, 0, 0.747);
+    display: none;
+    margin: 0;
+}
 .container-perfil button {
-    margin-top: 10px;
     position: relative;
     padding: 10px;
     width: 110px;
