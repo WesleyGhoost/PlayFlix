@@ -10,7 +10,7 @@
 .about button:hover {
     background-color: rgba(0, 0, 0, 0.384);
 }
-.about p {
+.about-back {
     position: absolute;
     top: 8px;
     left: 70px;
@@ -26,4 +26,7 @@
     text-align: start;
     color: white;
     padding: 20px;
+}
+.icon {
+    margin: 50px 0 0 30px;
 }

@@ -47,7 +47,7 @@ export function Navbar() {
                         <Link to="/about">Sobre</Link>
                     </li>
                 </ul>
-                <Link to="/perfil"><h3 className='user-nick'>{getUser}</h3></Link>
+                <Link to='/perfil'><h3 className='user-nick'>{getUser}</h3></Link>
                 <Link to="/select-char"><img className='user-char' src={getImg} alt="Character" /></Link>
             </nav>
         </div>

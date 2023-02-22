@@ -10,7 +10,9 @@ import { NickContext } from '../../contexts/Nick'
 import { ImgContext } from '../../contexts/Img'
 
 export function Perfil() {
-    const [nickname, setNickname] = useState('')
+    const getNick = localStorage.getItem('nick')
+    
+    const [nickname, setNickname] = useState(getNick)
 
     const {access} = useContext(NickContext)
     const {img} = useContext(ImgContext)
@@ -20,6 +22,7 @@ export function Perfil() {
     function handleAccess() {
         if(nickname === '') {
             document.querySelector('#alert').style.display = "block"
+            
         }
         else {
             document.querySelector('#alert').style.display = "none"

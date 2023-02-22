@@ -137,7 +137,6 @@ body {
         left: 860px;
     }
     .tags {
-        border: 1px solid red;
         width: 96%;
         padding: 0px 10px 10px 20px;
     }
@@ -165,7 +164,6 @@ body {
         font-size: 25px;
     }
     .tags {
-        border: 1px solid blue;
         width: 95%;
         padding: 0px 10px 10px 20px;
     }
