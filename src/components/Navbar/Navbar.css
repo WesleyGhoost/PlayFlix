@@ -16,8 +16,10 @@ nav h4 {
 nav h4::first-letter {
     font-size: 25px;
 }
-nav h3 {
-    margin: 0 100px 0 300px
+.user-nick {
+    margin: 0 100px 0 300px;
+    color: white;
+    font-size: 18px;
 }
 .genres {
     display: flex;
@@ -28,10 +30,6 @@ a {
     color: white;
     text-decoration: none;
 }
-.user-nick {
-    color: white;
-    font-size: 18px;
-}
 .user-char {
     width: 50px;
     height: 50px;
@@ -41,30 +39,63 @@ a {
 .color-change {
     background-color: rgba(0, 0, 0, 0.982);
 }
+
+@media screen and (min-width: 1024px) and (max-width:1200px) { 
+    nav {
+        width: 100%;
+    }
+    .user-nick {
+        font-size: 18px;
+        margin-left: 170px;
+    }
+    .user-char {
+        width: 50px;
+        height: 50px;
+        border-radius: 6px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1023px) { 
+    nav {
+        width: 100%;
+    }
+    .genres {
+        gap: 20px;
+        font-size: 14px;
+    }
+    .user-nick {
+        font-size: 16px;
+        margin: 0 50px 0 80px
+    }
+    .user-char {
+        width: 50px;
+        height: 50px;
+        border-radius: 6px;
+        margin: 5px;
+    }
+}
+
 @media screen and (min-width: 481px) and (max-width:768px) { 
     nav {
         width: 100%;
-        padding: 10px 10px;
     }
     nav h4 {
         display: none;
     }
     .genres {
         gap: 10px;
-        margin: 0;
-        padding: 10px;
-        font-size: 16px;
+        font-size: 15px;
     }
     .user-nick {
-        color: white;
-        font-size: 20px;
-        margin-left: 100px;
+        font-size: 14px;
+        margin: 0 60px 0 100px
     }
     .user-char {
-        width: 90px;
-        height: 90px;
+        width: 50px;
+        height: 50px;
         border-radius: 6px;
-        margin: 10px;
+        margin: 5px;
     }
 }
 
@@ -72,25 +103,24 @@ a {
     nav {
         width: 400px;
         padding: 0 0;
-        border: 1px solid white;
     }
     nav h4 {
         display: none;
     }
     .genres {
-        gap: 7px;
-        margin: 0;
+        gap: 5px;
+        margin: 5px;
         padding: 10px;
-        font-size: 12px;
+        font-size: 11px;
     }
     .user-nick {
         color: white;
         font-size: 12px;
-        margin: 15px;
+        margin: 5px;
     }
     .user-char {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 6px;
         margin: 10px;
     }

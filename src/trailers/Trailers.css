@@ -40,14 +40,14 @@
 
 @media screen and (min-width: 320px) and (max-width:480px) {
     .trailer {
-        width: 380px;
-        height: 250px;
+        width: 100%;
+        height: 200px;
     }
     .infos-data, .infos-descrip {
         position: relative;
-        top: 100px;
+        top: 60px;
     }
     .infos-descrip p {
-        font-size: 15px;
+        font-size: 12px;
     }
 }

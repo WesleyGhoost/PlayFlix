@@ -182,7 +182,7 @@ body {
         display: none;
     }
     .informations {
-        top: 200px;
+        top: 250px;
         left: 30px;
         display: flex;
         flex-direction: column;
@@ -192,10 +192,14 @@ body {
         font-size: 15px;
         padding: 5px;
     }
+    .informations-more {
+        display: none;
+    }
     .tags {
         margin: 20px 0px;
         justify-content: center;
         align-items: center;
+        padding: 0px 0px 10px 35px;
     }
     .tags h3 {
         font-size: 20px;
@@ -222,7 +226,7 @@ body {
         display: none;
     }
     .informations {
-        top: 120px;
+        top: 135px;
         left: 30px;
         display: flex;
         flex-direction: column;
@@ -231,6 +235,9 @@ body {
     .informations h3 {
         font-size: 12px;
         padding: 5px;
+    }
+    .informations-more {
+        display: none;
     }
     .tags {
         margin: 20px 0px;
@@ -253,11 +260,12 @@ body {
         display: none;
     }
     .modal-content {
-        height: 680px;
-        margin-top: 10px;
+        width: 330px;
+        height: 550px;
+        margin-top: 50px;
     }
     .close {
-    bottom: 485px;
-    left: 345px;
+        bottom: 435px;
+        left: 302px;
     }
 }
