@@ -21,6 +21,10 @@ export function SelectImg() {
     const {changeImg} = useContext(ImgContext)
     const {img} = useContext(ImgContext)
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     function ChangeForArthur() {
         changeImg(Arthur)
     }
