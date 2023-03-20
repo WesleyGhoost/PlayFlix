@@ -14,7 +14,7 @@ import Geralt from '../../../img/imgs-perfil/Geralt.jpg'
 import Ezio from '../../../img/imgs-perfil/Ezio.jpg'
 
 import { useNavigate } from 'react-router-dom'
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { ImgContext } from '../../../contexts/Img'
 
 export function SelectImg() {
